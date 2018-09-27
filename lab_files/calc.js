@@ -21,8 +21,16 @@ I [4]='http://munsellb.people.cofc.edu/img/yuan.jpeg';
 
 // Convert Function Goes Here
 
+function convert {
+    var dollar=document.getElementsByName("dollars")[0].value;
+    var selectElement=document.getElementById('currency');
+    var exchangeRate=selectElement.value;
+    var index=selectElement.selectedIndex;
+    var currency=selectElement.options[index].text;
 
 
+function updateExchange {
+    
 
 
 

@@ -29,7 +29,7 @@ function convert {
     var currency=selectElement.options[index].text;
 
 
-function updateExchange {
+updateExchange(dollar, exchangeRate, currency, index); }
     
 
 
@@ -38,7 +38,9 @@ function updateExchange {
 
 // Calculate Function Goes Here
 
-
+function calculate(dollar, exchangeRate) {
+    return dollar * excahngeRate;
+}
 
 
 
